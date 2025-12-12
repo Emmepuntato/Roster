@@ -37,8 +37,8 @@ function AuthForm() {
   }
 
   return (
-    <div className='bg-blue-950 min-w-screen min-h-screen flex justify-center items-center'>
-      <div className='bg-white/50 backdrop-blur-lg min-h-50 min-w-50 text-black -translate-y-20 p-5 rounded-xl'>
+    <div>
+      <div className='bg-white/50 backdrop-blur-lg min-h-50 min-w-50 text-black  p-5 rounded-xl '>
         {isAuth ? (
           <Profile />
         ) : (
